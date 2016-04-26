@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bfcc2cf-2536-4266-b134-6bcf7cb21263" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB_maintenance/getLatestAndLowestPrices.php" afterPath="$PROJECT_DIR$/DB_maintenance/getLatestAndLowestPrices.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/query.php" afterPath="$PROJECT_DIR$/classes/query.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/insertPriceData.js" afterPath="$PROJECT_DIR$/js/insertPriceData.js" />
     </list>
     <ignored path="STOCKASSISTANT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,17 +27,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="getLatestAndLowestPrices.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DB_maintenance/getLatestAndLowestPrices.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="193">
+              <caret line="66" column="83" selection-start-line="66" selection-start-column="83" selection-end-line="66" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="updateCurrent.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="insertPriceData.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/insertPriceData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/query.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13">
+              <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+              <folding>
+                <marker date="1461623828000" expanded="true" signature="169:311" placeholder="INSERT INTO HistoricalPrices... " />
+                <marker date="1461623828000" expanded="true" signature="395:509" placeholder="SELECT Date,... " />
+                <marker date="1461623828000" expanded="true" signature="586:646" placeholder="SELECT Ticke... Stocks" />
+                <marker date="1461623828000" expanded="true" signature="766:800" placeholder="SELECT Ticke... Stocks" />
+                <marker date="1461623828000" expanded="true" signature="877:923" placeholder="SELECT * FRO... Stocks" />
+                <marker date="1461623828000" expanded="true" signature="1022:1055" placeholder="SELECT Stock... Stocks" />
+                <marker date="1461623828000" expanded="true" signature="1137:1188" placeholder="SELECT Stock... Stocks" />
+                <marker date="1461623828000" expanded="true" signature="1279:1325" placeholder="DELETE FROM " />
+                <marker date="1461623828000" expanded="true" signature="1397:1433" placeholder="DELETE FROM " />
+                <marker date="1461623828000" expanded="true" signature="1490:1545" placeholder="UPDATE Stock... " />
+                <marker date="1461623828000" expanded="true" signature="1646:1739" placeholder="INSERT INTO Stocks... " />
+                <marker date="1461623828000" expanded="true" signature="1841:1919" placeholder="SELECT Stock... HistoricalPrices" />
+                <marker date="1461623828000" expanded="true" signature="1996:2047" placeholder="SELECT Ticke... Stocks" />
+                <marker date="1461623828000" expanded="true" signature="2134:2201" placeholder="SELECT COUNT... Stocks" />
+                <marker date="1461623828000" expanded="true" signature="2288:2365" placeholder="SELECT Stock... Stocks" />
+                <marker date="1461623828000" expanded="true" signature="2449:2493" placeholder="SELECT Count... Keywords" />
+                <marker date="1461623828000" expanded="true" signature="2576:2627" placeholder="SELECT * FRO... Keywords" />
+                <marker date="1461623828000" expanded="true" signature="2708:2748" placeholder="INSERT INTO Keywords... " />
+                <marker date="1461623828000" expanded="true" signature="2832:2879" placeholder="UPDATE Keywo... " />
+                <marker date="1461623828000" expanded="true" signature="2965:3108" placeholder="SELECT Date,... " />
+                <marker date="1461623828000" expanded="true" signature="3206:3264" placeholder="SELECT * FRO... PredictionTimes" />
+                <marker date="1461623828000" expanded="true" signature="3362:3434" placeholder="SELECT Stock... Predictions" />
+                <marker date="1461623828000" expanded="true" signature="3541:3649" placeholder="SELECT NextD... Predictions" />
+                <marker date="1461623828000" expanded="true" signature="3728:3776" placeholder="SELECT UserI... Users" />
+                <marker date="1461623828000" expanded="true" signature="3859:3909" placeholder="SELECT Passw... Users" />
+                <marker date="1461623828000" expanded="true" signature="3999:4065" placeholder="SELECT UserI... Users" />
+                <marker date="1461623828000" expanded="true" signature="4139:4231" placeholder="INSERT INTO Users... " />
+                <marker date="1461623828000" expanded="true" signature="4312:4380" placeholder="SELECT 1 FRO... TrackedStocks" />
+                <marker date="1461623828000" expanded="true" signature="4469:4519" placeholder="SELECT Stock... TrackedStocks" />
+                <marker date="1461623828000" expanded="true" signature="4600:4655" placeholder="INSERT INTO TrackedStocks... " />
+                <marker date="1461623828000" expanded="true" signature="4742:4800" placeholder="DELETE FROM " />
+                <marker date="1461623828000" expanded="true" signature="4919:5053" placeholder="SELECT s.Tic... historicalprices" />
+                <marker date="1461623828000" expanded="true" signature="5109:5141" placeholder="SELECT Ticke... stocks" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getLatestAndLowestPrices.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DB_maintenance/getLatestAndLowestPrices.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="updateCurrent.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DB_maintenance/updateCurrent.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -52,8 +119,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DB_maintenance/getLatestAndLowestPrices.php" />
         <option value="$PROJECT_DIR$/DB_maintenance/updateCurrent.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/insertPriceData.js" />
+        <option value="$PROJECT_DIR$/classes/query.php" />
+        <option value="$PROJECT_DIR$/DB_maintenance/getLatestAndLowestPrices.php" />
       </list>
     </option>
   </component>
@@ -62,7 +132,7 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
@@ -121,7 +191,35 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="STOCKASSISTANT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="STOCKASSISTANT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="DB_maintenance" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="STOCKASSISTANT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="STOCKASSISTANT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -133,6 +231,45 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.php">
+    <configuration default="false" name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/STOCKASSISTANT/index.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -144,12 +281,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1461636462051</updated>
-      <workItem from="1461636463361" duration="91000" />
+      <workItem from="1461636463361" duration="3500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91000" />
+    <option name="totallyTimeSpent" value="3500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="989" extended-state="6" />
@@ -158,21 +295,22 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -183,10 +321,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DB_maintenance/getLatestAndLowestPrices.php">
+    <entry file="file://$PROJECT_DIR$/js/insertPriceData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="210">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="66" column="83" selection-start-line="66" selection-start-column="83" selection-end-line="66" selection-end-column="83" />
           <folding />
         </state>
       </provider>
@@ -195,6 +341,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+          <folding>
+            <marker date="1461623828000" expanded="true" signature="169:311" placeholder="INSERT INTO HistoricalPrices... " />
+            <marker date="1461623828000" expanded="true" signature="395:509" placeholder="SELECT Date,... " />
+            <marker date="1461623828000" expanded="true" signature="586:646" placeholder="SELECT Ticke... Stocks" />
+            <marker date="1461623828000" expanded="true" signature="766:800" placeholder="SELECT Ticke... Stocks" />
+            <marker date="1461623828000" expanded="true" signature="877:923" placeholder="SELECT * FRO... Stocks" />
+            <marker date="1461623828000" expanded="true" signature="1022:1055" placeholder="SELECT Stock... Stocks" />
+            <marker date="1461623828000" expanded="true" signature="1137:1188" placeholder="SELECT Stock... Stocks" />
+            <marker date="1461623828000" expanded="true" signature="1279:1325" placeholder="DELETE FROM " />
+            <marker date="1461623828000" expanded="true" signature="1397:1433" placeholder="DELETE FROM " />
+            <marker date="1461623828000" expanded="true" signature="1490:1545" placeholder="UPDATE Stock... " />
+            <marker date="1461623828000" expanded="true" signature="1646:1739" placeholder="INSERT INTO Stocks... " />
+            <marker date="1461623828000" expanded="true" signature="1841:1919" placeholder="SELECT Stock... HistoricalPrices" />
+            <marker date="1461623828000" expanded="true" signature="1996:2047" placeholder="SELECT Ticke... Stocks" />
+            <marker date="1461623828000" expanded="true" signature="2134:2201" placeholder="SELECT COUNT... Stocks" />
+            <marker date="1461623828000" expanded="true" signature="2288:2365" placeholder="SELECT Stock... Stocks" />
+            <marker date="1461623828000" expanded="true" signature="2449:2493" placeholder="SELECT Count... Keywords" />
+            <marker date="1461623828000" expanded="true" signature="2576:2627" placeholder="SELECT * FRO... Keywords" />
+            <marker date="1461623828000" expanded="true" signature="2708:2748" placeholder="INSERT INTO Keywords... " />
+            <marker date="1461623828000" expanded="true" signature="2832:2879" placeholder="UPDATE Keywo... " />
+            <marker date="1461623828000" expanded="true" signature="2965:3108" placeholder="SELECT Date,... " />
+            <marker date="1461623828000" expanded="true" signature="3206:3264" placeholder="SELECT * FRO... PredictionTimes" />
+            <marker date="1461623828000" expanded="true" signature="3362:3434" placeholder="SELECT Stock... Predictions" />
+            <marker date="1461623828000" expanded="true" signature="3541:3649" placeholder="SELECT NextD... Predictions" />
+            <marker date="1461623828000" expanded="true" signature="3728:3776" placeholder="SELECT UserI... Users" />
+            <marker date="1461623828000" expanded="true" signature="3859:3909" placeholder="SELECT Passw... Users" />
+            <marker date="1461623828000" expanded="true" signature="3999:4065" placeholder="SELECT UserI... Users" />
+            <marker date="1461623828000" expanded="true" signature="4139:4231" placeholder="INSERT INTO Users... " />
+            <marker date="1461623828000" expanded="true" signature="4312:4380" placeholder="SELECT 1 FRO... TrackedStocks" />
+            <marker date="1461623828000" expanded="true" signature="4469:4519" placeholder="SELECT Stock... TrackedStocks" />
+            <marker date="1461623828000" expanded="true" signature="4600:4655" placeholder="INSERT INTO TrackedStocks... " />
+            <marker date="1461623828000" expanded="true" signature="4742:4800" placeholder="DELETE FROM " />
+            <marker date="1461623828000" expanded="true" signature="4919:5053" placeholder="SELECT s.Tic... historicalprices" />
+            <marker date="1461623828000" expanded="true" signature="5109:5141" placeholder="SELECT Ticke... stocks" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_maintenance/getLatestAndLowestPrices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding />
         </state>
       </provider>

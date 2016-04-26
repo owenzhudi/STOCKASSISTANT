@@ -1,7 +1,7 @@
 <?php
-	// written by: Manoj Velagaleti
-	// tested by: Manoj Velagaleti
-	// debugged by: Manoj Velagaleti
+	// written by:
+	// tested by:
+	// debugged by:
 	
 	class query {
 		
@@ -157,6 +157,15 @@
 		//remove tracked stock
 		public function removeTrackedStock() {
 			return "DELETE FROM TrackedStocks WHERE UserID = ? AND StockID = ?";
+		}
+
+		// get the latest and lowest price of the last year
+		public function getLatestAndLowestPrice() {
+			return "SELECT s.Ticker, s.Price, MIN(h.Close) AS LowestPrice FROM historicalprices h, stocks s WHERE h.StockID = s.StockID GROUP BY h.StockID";
+		}
+
+		public function getLatestPrice() {
+			return "SELECT Ticker, Price FROM stocks";
 		}
 	}
 ?>

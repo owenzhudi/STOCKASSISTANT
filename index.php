@@ -63,10 +63,10 @@
 			</div>
 			<div class = "col-md-2">
 				<div id = "update">
-					<form action="js/insertPriceData.js" >
+					<form onclick="latestAndLowestPrices()" >
 						<input type="submit" id="button_update_current" class="button button_search" name="update" value="update" />
 					</form>
-					<form action="js/insertPriceData.js">
+					<form onclick="latestAndLowestPrices()">
 						<input type="submit" id="button_update_history" class="button button_search" name="daily update" value="daily-up" />
 					</form>
 					

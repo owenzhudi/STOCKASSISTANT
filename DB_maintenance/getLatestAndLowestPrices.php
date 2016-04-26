@@ -12,8 +12,8 @@
     //instantiate necessary objects
     $dbConnection = new dbConnection();
     $query = new query();
-    $stockRetriever = new stockRetriever();
-    $stockExtractor = new stockExtractor();
+    //$stockRetriever = new stockRetriever();
+    //$stockExtractor = new stockExtractor();
 
     //conect to database
     $dbConnection->connect();

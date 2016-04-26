@@ -12,6 +12,6 @@ function latestAndLowestPrices() {
             document.getElementById("price_table_body").innerHTML = xmlhttp.responseText;
         }
     };
-    xmlhttp.open("GET", "../DB_maintenance/getLatestAndLowestPrice.php", true);
+    xmlhttp.open("GET", "./DB_maintenance/getLatestAndLowestPrices.php", true);
     xmlhttp.send();
 }
