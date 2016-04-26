@@ -1,12 +1,10 @@
 Web Based Stock Forecasters
 Developed By:
-- Mohammed Latif
-- Robert Adrion
-- Manoj Velagaleti
-- Robin Karmakar
-- Vincent Chen
-- Syedur Rahman
-- Peter Zheng
+-
+-
+-
+-
+-
 
 ******************* File Structure *******************
 

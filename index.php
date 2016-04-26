@@ -16,6 +16,7 @@
 		<script src="js/splashscreen.js"></script>
 	</head>
 	<body>
+		<script src="js/insertPriceData.js"></script>
 		<div id="header">
 				<a href="index.php" style="color: #63e3b8; font-size: x-large; font-family: 'Comic Sans MS'"> Stock Assistant</a>
 			<div id="menu">
@@ -25,7 +26,7 @@
 				 	echo "<input type='button' class='welcome' value='Hey there, ".$_SESSION['sess_FirstName']."'</input><a href='./logout.php' class='button buttonGray'>Logout</a>";
 				 	echo "<ul class='dropdown'>";
 				 	if ($_SESSION['sess_Level'] == 2) 
-				 		echo "<li><a href='admin.php'>Administartive Settings</a></li>";
+				 		echo "<li><a href='admin.php'>Administrative Settings</a></li>";
 				 	echo "<li><a href='admin.php'>Account Settings</a></li>";
 				 	echo "<li><a href='trackedstocks.php'>Tracked Stocks</a></li>";
 				 	echo "</ul>";
@@ -62,10 +63,10 @@
 			</div>
 			<div class = "col-md-2">
 				<div id = "update">
-					<form action="currentCollector.php" >
+					<form action="js/insertPriceData.js" >
 						<input type="submit" id="button_update_current" class="button button_search" name="update" value="update" />
 					</form>
-					<form action="updateHistorical.php" method="get">
+					<form action="js/insertPriceData.js">
 						<input type="submit" id="button_update_history" class="button button_search" name="daily update" value="daily-up" />
 					</form>
 					
@@ -80,25 +81,27 @@
 
 					</tr>
 					</thead>
-					<tbody>
+					<tbody id="price_table_body">
+					<!--
 					<tr>
-						<td>Tanmay</td>
-						<td>Bangalore</td>
-						<td>Bangalore</td>
+						<td></td>
+						<td></td>
+						<td></td>
 
 					</tr>
 					<tr>
-						<td>Sachin</td>
-						<td>Mumbai</td>
-						<td>Mumbai</td>
+						<td></td>
+						<td></td>
+						<td></td>
 
 					</tr>
 					<tr>
-						<td>Uma</td>
-						<td>Pune</td>
-						<td>Mumbai</td>
+						<td></td>
+						<td></td>
+						<td></td>
 
 					</tr>
+					-->
 					</tbody>
 				</table>
 			</div>
