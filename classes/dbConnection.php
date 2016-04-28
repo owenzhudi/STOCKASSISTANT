@@ -11,7 +11,7 @@
 		//necessary credentials
 		private $host = "localhost";
 		private $user = "root";
-		private $password = "";
+		private $password = "123456";
 		private $db = "database";
 				
 		//connect to database

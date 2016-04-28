@@ -1,32 +1,30 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Di Zhu
- * Date: 16/4/25
+ * User: Syrup
+ * Date: 16/4/27
+ * Time: 下午8:29
  */
+
+
     include_once '../classes/dbConnection.php';
     include_once '../classes/query.php';
-    //include_once '../classes/stockRetriever.php';
-    //include_once '../classes/stockExtractor.php';
+
 
     //instantiate necessary objects
     $dbConnection = new dbConnection();
     $query = new query();
-    //$stockRetriever = new stockRetriever();
-    //$stockExtractor = new stockExtractor();
-
     //conect to database
     $dbConnection->connect();
     //get stockID and ticker of all stocks
-    $dbConnection->prepare($query->getLatestAndLowestPrice());
+    $dbConnection->prepare($query->getLowerThanGoogle());
     $results = $dbConnection->resultset();
     //disconnect from database
     $dbConnection->disconnect();
     foreach ($results as $stock) {
         echo "<tr>";
-        echo "<td>" . $stock['Ticker'] . "</td>";
-        echo "<td>" . $stock['Price'] . "</td>";
-        echo "<td>" . $stock['LowestStockYear'] . "</td>";
+        echo "<td>" . $stock['StockID'] . "</td>";
+        echo "<td>" . $stock['Company'] . "</td>";
         echo "</tr>";
     }
 ?>

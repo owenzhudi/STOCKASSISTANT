@@ -56,7 +56,11 @@
 								<input type="text" value="Search" id="keyword" class="input_search" name="q"/>
 							</div>
 							<input type="submit" id="button_search" class="button button_search" name="search"/>
-							<input type="submit" id="button_suggest" class="button button_search" name="suggest"/>
+<!--							<input type="submit" id="button_suggest" class="button button_search" name="suggest"/>-->
+						</form>
+
+						<form action="light.php">
+							<input type="submit" id="button_suggest" class="button button_search" name="search"/>
 						</form>
 					</div>
 				</div>
@@ -64,11 +68,13 @@
 			<div class = "col-md-2">
 				<div id = "update">
 					<form onclick="latestAndLowestPrices()" >
-						<input type="submit" id="button_update_current" class="button button_search" name="update" value="update" />
+						<input type="button" id="button_update_current" class="button button_search" name="update" value="update" />
 					</form>
+					<!--
 					<form onclick="latestAndLowestPrices()">
-						<input type="submit" id="button_update_history" class="button button_search" name="daily update" value="daily-up" />
+						<input type="button" id="button_update_history" class="button button_search" name="daily update" value="daily-up" />
 					</form>
+					-->
 					
 				</div>
 				<table class="table table-striped">
@@ -82,26 +88,7 @@
 					</tr>
 					</thead>
 					<tbody id="price_table_body">
-					<!--
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-
-					</tr>
-					-->
+					
 					</tbody>
 				</table>
 			</div>

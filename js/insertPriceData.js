@@ -14,4 +14,7 @@ function latestAndLowestPrices() {
     };
     xmlhttp.open("GET", "./DB_maintenance/getLatestAndLowestPrices.php", true);
     xmlhttp.send();
+    // set time out to update in every 30 seconds
+    var t = setTimeout("latestAndLowestPrices()", 30000);
 }
+window.onload = latestAndLowestPrices();
